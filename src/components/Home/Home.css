@@ -1,0 +1,130 @@
+@font-face {
+    font-family: Anurati;
+    src: url(../../assets/Anurati-Regular.otf);
+}
+
+:root {
+    --home-color: #2ED327;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.algo-name {
+    font-size: 18px;
+    font-weight: 700;
+    color: #ffff;
+}
+
+
+
+.card {
+    background-color: transparent;
+    position: relative; /* Add this for pseudo-element positioning */
+}
+
+.card::after {
+    content: "";
+    bottom: 0;
+    top: 0;
+    left: 0;
+    position: absolute;
+    height: 50%;
+    width: 5px;
+    color: #fff;
+}
+
+.algo-image {
+    height: 175px;
+    width: auto;
+    object-fit: cover;
+    fill: var(--home-color);
+    background-color: transparent;
+}
+
+.back {
+
+    background-color: #0e0e0e;
+    min-height: 100vh;
+    margin: 0; /* Remove default body margin */
+}
+
+#particles-js {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    background-image: url("");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    z-index: 0;
+    top:0;
+    left:0;
+  }
+
+.logo {
+    position: relative;
+    z-index: 100;
+    float: top; /* This seems like a typo, consider changing it to 'top' */
+}
+
+.links li {
+    cursor: pointer;
+    margin: 10px;
+    fill: var(--home-color) !important;
+    margin-top: 25px;
+}
+
+.links li svg {
+    height: 20px;
+    width: auto;
+}
+
+.links {
+    position: sticky;
+    z-index: 100;
+    display: flex;
+    list-style: none;
+    vertical-align: top;
+    float: left;
+    cursor: pointer;
+    justify-content: flex-start;
+    list-style: none;
+    padding: 0;
+    white-space: nowrap;
+}
+
+.main-title {
+    font-size: 3rem;
+    color: white;
+    padding-top: 18vh;
+    font-family: Anurati, sans-serif;
+    letter-spacing: 5px;
+}
+
+.main-title svg {
+    fill: var(--home-color);
+    margin-bottom: 30px;
+    height: 80px;
+    width: auto;
+}
+
+.description-title {
+    color: white;
+    width: 50%;
+    margin: auto;
+}
+
+.list-inline {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0;
+}
+
+.list-inline-item {
+    margin: 0; /* Remove default list item margin */
+}
