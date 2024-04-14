@@ -1,8 +1,14 @@
+import DEVHomePage from "./DEVtools/DEVHomePage"
+import DevNavbar from "./DEVtools/DevNavbar"
+import './Dev.css'
 
 
 function DEV() {
   return (
-    <div>DEV</div>
+    <div>
+      <DevNavbar></DevNavbar>
+      <DEVHomePage></DEVHomePage>
+    </div>
   )
 }
 

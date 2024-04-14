@@ -1,0 +1,65 @@
+.popover-body{
+    --bs-popover-body-padding-x: 0rem;
+    --bs-popover-body-padding-y: 0.2rem
+}
+
+.popover, .popover-body {
+    color: white;
+    background-color: #212529  !important;
+}
+
+.navbar-brand{
+    font-family:cursive;
+}
+
+.user-logo{
+    width: 30px;
+    height: 30px;
+}
+
+.popover-header{
+    font-family: 'Orbitron', sans-serif;
+    text-align: center;
+    padding: 14px 0;
+    font-size: large;
+    font-weight: bold;
+    background-color: #14191d  !important;
+}
+
+.popoverItems {
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    color: white;
+    display: flex;
+    padding: 7px !important;
+    margin: 2px 0;
+}
+
+.popoverItems span{
+    margin: 0 15px ;
+}
+
+.popoverBodyUpper .popoverItems:hover{
+    cursor: pointer;
+    background-color: black;
+}
+
+.popoverBodyLower:hover{
+    cursor: pointer;
+    background-color: rgb(184, 3, 3);
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.popoverBodyLower{
+    border-top: 2px solid white;
+    margin-top: 10px;
+    margin-bottom: -6px;
+}
+
+.popoverBodyLower .popoverItems{
+    height: 44px;
+    margin: auto;
+    font-size: larger;
+}

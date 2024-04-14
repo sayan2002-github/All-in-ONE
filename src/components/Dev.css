@@ -1,0 +1,7 @@
+body{
+    background-color: rgb(44, 43, 43);
+}
+
+.DevContainer{
+    --bs-gutter-x: 1rem;
+}
